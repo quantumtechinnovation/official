@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#mynavigation{
+    width:100%;
+    position:absolute;
+    z-index:10;
+    background:none;
+    border:none;
+}
+#mynavigation .navbar-toggle{
+    display: block;
+    border: none;
+}
+#mynavigation .navbar-toggle:hover{
+  background:none;
+}
+#mynavigation .icon-bar-left{
+    float: left;
+}
+#mynavigation .icon-right{
+    padding-left: 10px;
+    position: relative;
+    top: -3px;
+}
+#mynavigation .navbar-header{
+    float: none;
+}
+
+
+#mynavigation .navbar-brand{
+    color:#fff;
+}
+#mynavigation span{
+    color: white;
+}
+#mynavigation a{
+    color: white;
+}
+
+/* carousel starts here */
+.my-container{
+    padding:0;
+}
+
+.carousel .item{
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-image: url("../image/carousel1.jpeg");
+}
+
+.carousel .item1{
+    background-image: url("../image/carousel2.jpeg");
+}
+.carousel .item2{
+    background-image: url("../image/carousel3.jpeg");
+}
+.carousel .item3{
+    background-image: url("../image/carousel4.jpeg");
+}
+.carousel .item4{
+    background-image: url("../image/carousel5.jpeg");
+}
+
+
+/* carousel ends here */
+
+
+/* bannner starts here */
+.banner{
+    width:60%;
+    text-align:center;
+    position:absolute;
+    z-index:20;
+    top:40%;
+    left:20%;
+}
+.banner p{
+    letter-spacing: 3px;
+    font-size: 18px;
+    color: rgb(179, 176, 176);
+}
+.banner h1{
+    color: white;
+    font-size: 100px;
+}
+.banner .top{
+    border-top: 1px solid white;
+}
+/* banner ends here */
+
+/* second section starts here */
+.second-section{
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+}
+._second{
+    padding-top: 5%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+.second-section .top img{
+     width:100%;
+}
+.second-section .right img{
+    width:100%;
+}
+._second .last{
+    padding: 7%;
+    background-color: #fff;
+    /* padding-bottom: 7%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+._second .last p{
+    font-size: 14px;
+    padding-bottom: 3%;
+}
+._second .last h2{
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 5%;
+}
+._second .line{
+    width: 70%;
+    margin: 0 auto;
+    border-top: 1px solid rgb(231, 231, 231);
+}
+
+
+._second .last span{
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+/* second-section ends here */
+
+/* third section starts here */
+.third-section{
+    width: 100%;
+    padding-bottom: 10%;
+    background-image: url("../image/background-fixed.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.third-section p{
+    padding-top: 5%;
+    color:grey;
+    font-size: 18px;
+}
+.third-section h1{
+    color: white;
+    padding-bottom: 5%;
+}
+.third-section .line{
+    border-top: 1px solid rgb(172, 170, 170);
+}
+.fourth-section{
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+}
+._fourth{
+    padding-bottom: 5%;
+}
+
+.box{
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.box .line{
+    border-top: 1px solid rgb(202, 200, 200);
+}
+.left .box1 img{
+    width: 100%;
+    margin-bottom: 9%;
+    border: 12px solid rgb(241, 241, 241);
+   
+}
+.left .box2 img{
+    width: 100%;
+    margin-bottom: 9%;
+    border: 12px solid rgb(241, 241, 241);
+}
+.right .box3 img{
+    width: 100%;
+    margin-bottom: 9%;
+    border: 12px solid rgb(241, 241, 241);
+}
+.right .box4 img{
+    width: 100%;
+    border: 12px solid rgb(241, 241, 241);
+}
+.footer{
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-color: black;
+}
+.footer button{
+    border: none;
+    background: none;
+    padding-right: 1%;
+}
+.footer .fa{
+    font-size: 20px;
+    color: grey;
+}
+.footer p{
+    padding-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media querry starts here */
+
+@media only screen and (max-width:768px){
+    .banner{
+        width: 80%;
+        position:absolute;
+        z-index:20;
+        top:40%;
+        left:18%;
+    }
+    .banner p{
+        letter-spacing: 1px;
+        font-size: 11px;
+    
+    }  
+    .last span{
+        text-align: center;
+    }
+    ._second .right{
+        padding-top: 9%;
+        padding-bottom: 5%;
+    }
+    ._second .left{
+        padding-top: 7%;
+    }
+
+    .third-section{
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    .third-section p{
+        padding-top: 9%;
+        font-size: 13px;
+    }
+    .third-section .line{
+        width: 75%;
+        margin: 0 auto;
+        border-top: 1px solid rgb(172, 170, 170);
+    }
+    .box{
+        padding-bottom: 9%;
+    }
+    .box .line{
+        width: 90%;
+        margin: 0 auto;
+        border-top: 1px solid rgb(202, 200, 200);
+    }
+    
+    .left .box1 img{
+        border: 9px solid rgb(241, 241, 241);
+    }
+    .left .box2 img{
+        border: 9px solid rgb(241, 241, 241);
+    }
+    .right .box3 img{
+        border: 9px solid rgb(241, 241, 241);
+    }
+    .right .box4 img{
+        border: 9spx solid rgb(241, 241, 241);
+    }
+
+    .footer button{
+        padding-right: 2%;
+        padding-bottom: 1%;
+    }
+}
+
+
+
+/* media querry for max-width=992px */
+
+@media only screen and (max-width:992px){
+    .banner{
+        width: 65%;
+        position:absolute;
+        z-index:20;
+        top:40%;
+        left:20%;
+    }
+    .banner p{
+        letter-spacing: 1px;
+        font-size: 11px;
+    
+    }  
+
+    ._second .right{
+        /* padding-top: 7%; */
+        padding-bottom: 5%;
+    }
+    ._second .line{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .third-section{
+        width: 100%;
+        padding-bottom: 9%;
+    }
+    .third-section p{
+        padding-top: 9%;
+        font-size: 13px;
+    }
+    .third-section .line{
+        margin: 0 auto;
+        border-top: 1px solid rgb(172, 170, 170);
+    }
+    .box{
+        padding-bottom: 9%;
+    }
+    .box .line{
+        width: 90%;
+        margin: 0 auto;
+        border-top: 1px solid rgb(202, 200, 200);
+    }
+    
+    .left .box1 img{
+        border: 9px solid rgb(241, 241, 241);
+    }
+    .left .box2 img{
+        border: 9px solid rgb(241, 241, 241);
+    }
+    .right .box3 img{
+        border: 9px solid rgb(241, 241, 241);
+    }
+    .right .box4 img{
+        border: 9spx solid rgb(241, 241, 241);
+    }
+
+    .footer button{
+        padding-right: 2%;
+        padding-bottom: 1%;
+    }
+}
